@@ -208,6 +208,8 @@
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Areas\Blog\BlogAreaRegistration.vb" />
+    <Compile Include="Areas\Blog\BlogContext.vb" />
+    <Compile Include="Areas\Blog\Models\BlogPost.vb" />
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\ManageController.vb" />
     <Compile Include="Global.asax.vb">
