@@ -219,6 +219,7 @@
       <DependentUpon>201706172344175_Initial Project.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201706172344175_Initial Project.vb" />
+    <Compile Include="Migrations\Blog\Configuration.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="Migrations\Utility\DefaultRoles.vb" />
     <Compile Include="Models\AccountViewModels.vb" />
