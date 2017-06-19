@@ -13,3 +13,16 @@
 1. Add default role seeding to create the roles if needed.
 1. Run update-database to apply code migrations and get roles in db.![Roles 3](images/Roles 3.png)
 1. Add new users to default role.
+
+## Blog
+1. Add Blog Area ![Blog 3](images/Blog 3.png)
+1. Add Model for BlogPost.
+1. Add EF context for Blog
+    1. ![Blog 1](images/Blog 1.png)
+    1. ![Blog 2](images/Blog 2.png)
+1. Add Migration configuration for Blog context ![Blog 4](images/Blog 4.png)
+1. Add Inital migration ![Blog 5](images/Blog 5.png)
+1. Add HomeController to Blog Area
+    1. ![Blog 6](images/Blog 6.png)
+    1. ![Blog 7](images/Blog 7.png)
+    1. ![Blog 8](images/Blog 8.png)
