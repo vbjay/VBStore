@@ -209,6 +209,7 @@
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Areas\Blog\BlogAreaRegistration.vb" />
     <Compile Include="Areas\Blog\BlogContext.vb" />
+    <Compile Include="Areas\Blog\Controllers\HomeController.vb" />
     <Compile Include="Areas\Blog\Models\BlogPost.vb" />
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\ManageController.vb" />
@@ -278,6 +279,11 @@
     <Content Include="Areas\Blog\Views\web.config" />
     <Content Include="Areas\Blog\Views\_ViewStart.vbhtml" />
     <Content Include="Areas\Blog\Views\Shared\_Layout.vbhtml" />
+    <Content Include="Areas\Blog\Views\Home\Create.vbhtml" />
+    <Content Include="Areas\Blog\Views\Home\Delete.vbhtml" />
+    <Content Include="Areas\Blog\Views\Home\Details.vbhtml" />
+    <Content Include="Areas\Blog\Views\Home\Edit.vbhtml" />
+    <Content Include="Areas\Blog\Views\Home\Index.vbhtml" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

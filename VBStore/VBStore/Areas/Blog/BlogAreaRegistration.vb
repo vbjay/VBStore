@@ -14,7 +14,8 @@ Namespace Areas.Blog
             context.MapRoute(
                 "Blog_default",
                 "Blog/{controller}/{action}/{id}",
-                New With {.action = "Index", .id = UrlParameter.Optional, .controller = "Home"}
+                New With {.action = "Index", .id = UrlParameter.Optional, .controller = "Home"},
+                namespaces:={"VBStore.Areas.Blog.Controllers"}
             )
         End Sub
     End Class
