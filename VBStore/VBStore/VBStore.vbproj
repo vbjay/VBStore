@@ -219,6 +219,10 @@
       <DependentUpon>201706172344175_Initial Project.vb</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201706172344175_Initial Project.vb" />
+    <Compile Include="Migrations\Blog\201706190015020_Initial blog setup.Designer.vb">
+      <DependentUpon>201706190015020_Initial blog setup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Blog\201706190015020_Initial blog setup.vb" />
     <Compile Include="Migrations\Blog\Configuration.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="Migrations\Utility\DefaultRoles.vb" />
@@ -246,6 +250,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706172344175_Initial Project.resx">
       <DependentUpon>201706172344175_Initial Project.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Blog\201706190015020_Initial blog setup.resx">
+      <DependentUpon>201706190015020_Initial blog setup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
